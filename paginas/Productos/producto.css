@@ -1,0 +1,48 @@
+ 
+.productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.producto {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 12px;
+    background: #fff;
+    overflow: hidden; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+
+.producto img {
+    width: 100%;
+    height: 180px;          
+    object-fit: cover;      
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.producto h3 {
+    margin: 10px 0 5px;
+    font-size: 1.1em;
+}
+
+.producto p {
+    font-size: 0.95em;
+    line-height: 1.4;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+
+.precio {
+    font-weight: bold;
+    color: #e91e63;
+    font-size: 1.1em;
+}
